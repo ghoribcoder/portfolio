@@ -1,0 +1,49 @@
+/* Shared css */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Text Primary */
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* Primary Button */
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 35px;
+    border: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.logo-text {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
